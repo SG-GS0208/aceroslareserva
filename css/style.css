@@ -6641,6 +6641,9 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important; }
+  #vision {
+    color: #dc3545; /* Cambia esto por el color que desees */
+}
 
 .ml-4,
 .mx-4 {
@@ -8993,16 +8996,20 @@ h1, h2, h3, h4, h5,
 
 .ftco-about {
   position: relative;
+  background: linear-gradient(to right, #808080 50%, #e30613 50%);
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%); /* Ajusta los valores */
   z-index: 0; }
+
+  
   .ftco-about:after {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     content: '';
-    background: #01d28e;
+    background: #cb3535;
     z-index: -2;
-    width: 63%; }
+    width: 51%; }
     @media (max-width: 767.98px) {
       .ftco-about:after {
         width: 100%; } }
@@ -9083,7 +9090,13 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .ftco-section-parallax .heading-section-white h2 {
     font-weight: 400 !important; }
+    .ftco-section.ftco-about {
+      background-color: #c6c8ca; /* Un gris oscuro */
+      color: #ffffff; /* Texto en blanco para contraste */
+  }
+  
 
+  
 .ftco-degree-bg {
   position: relative; }
   .ftco-degree-bg:after {
@@ -9320,7 +9333,7 @@ textarea.form-control {
   font-size: 18px;
   display: block;
   margin-bottom: 5px;
-  color: #1089ff;
+  color: #C00000;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 2px;
