@@ -6641,9 +6641,6 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important; }
-  #vision {
-    color: #dc3545; /* Cambia esto por el color que desees */
-}
 
 .ml-4,
 .mx-4 {
@@ -8184,7 +8181,6 @@ h1, h2, h3, h4, h5,
   z-index: 3; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #000000 !important;
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
@@ -8227,7 +8223,7 @@ h1, h2, h3, h4, h5,
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 0;
-        color: #fff; } }
+        color: #000000; } }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -8285,10 +8281,10 @@ h1, h2, h3, h4, h5,
     color: #C00000; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-      color: #1089ff; } }
+      color: #C00000; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #000000 !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
