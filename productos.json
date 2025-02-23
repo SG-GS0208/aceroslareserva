@@ -12,7 +12,7 @@
       "seccion":"PLANCHAS ESTRUCTURALES",
       "titulo": "NAVAL ASTM A131 Gr A",
       "categoria": "PLANCHAS ESTRUCTURALES",
-      "descripcion": "Planchas de acero de alta resistencia y soldabilidad, diseñadas para aplicaciones navales y estructuras marinas. Cumplen con la norma ASTM A131 Gr A, ideales para la construcción de cascos de barcos, plataformas offshore y componentes expuestos a ambientes corrosivos, garantizando durabilidad y rendimiento estructural.",
+      "descripcion": "Planchas de acero naval, diseñadas para soportar ambientes marinos con alta resistencia a la corrosión.",
       "imagen": "images/acero7.jpg",
       "fondoimagen": "images/acero7.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -22,7 +22,7 @@
       "seccion":"PLANCHAS ANTIABRASIVAS",
       "titulo": "BRINELL 400 / 450 / 500",
       "categoria": "PLANCHAS ANTIABRASIVAS",
-      "descripcion": "Planchas de acero diseñadas para resistir altos niveles de desgaste y abrasión, ideales para aplicaciones en minería, construcción y maquinaria pesada. Con durezas Brinell 400, 450 y 500, ofrecen excelente durabilidad, resistencia al impacto y prolongada vida útil en entornos de trabajo exigentes.",
+      "descripcion": "BRINELL 400 / 450 / 500.",
       "imagen": "images/antiabrasivas.jpg",
       "fondoimagen": "images/antiabrasivas.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -42,7 +42,7 @@
       "seccion":"PLANCHA DE ALTA RESISTENCIA",
       "titulo": "ASTM A709 Gr 50",
       "categoria": "PLANCHA DE ALTA RESISTENCIA",
-      "descripcion": "Planchas de acero de alta resistencia y bajo contenido de aleación, fabricadas conforme a la norma ASTM A709 Gr 50. Especialmente diseñadas para aplicaciones estructurales en puentes y construcciones que requieren alta durabilidad y resistencia a la corrosión. Ofrecen excelente soldabilidad, resistencia al impacto y un rendimiento óptimo en entornos exigentes.",
+      "descripcion": "BRINELL 400 / 450 / 500.",
       "imagen": "images/ASTM_A709_Gr_50PAR.jpg",
       "fondoimagen": "images/ASTM_A709_Gr_50PAR.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
