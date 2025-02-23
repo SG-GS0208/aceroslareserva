@@ -1,0 +1,156 @@
+{
+    "astm_a36": {
+      "seccion":"PLANCHAS ESTRUCTURALES",
+      "titulo": "ASTM A36",
+      "categoria": "PLANCHAS ESTRUCTURALES",
+      "descripcion": "Planchas de acero de alta resistencia, ideales para aplicaciones estructurales. Su excelente soldabilidad, ductilidad y versatilidad las hacen perfectas para construcción de edificaciones, puentes y estructuras industriales.",
+      "imagen": "images/astm_a36.jpg",
+      "fondoimagen": "images/astm_a36.jpg"
+    },
+    "astm_a131": {
+      "seccion":"PLANCHAS ESTRUCTURALES",
+      "titulo": "NAVAL ASTM A131 Gr A",
+      "categoria": "PLANCHAS ESTRUCTURALES",
+      "descripcion": "Planchas de acero naval, diseñadas para soportar ambientes marinos con alta resistencia a la corrosión.",
+      "imagen": "images/acero7.jpg",
+      "fondoimagen": "images/acero7.jpg"
+    },
+    "brinell": {
+      "seccion":"PLANCHAS ANTIABRASIVAS",
+      "titulo": "BRINELL 400 / 450 / 500",
+      "categoria": "PLANCHAS ANTIABRASIVAS",
+      "descripcion": "BRINELL 400 / 450 / 500.",
+      "imagen": "images/antiabrasivas.jpg",
+      "fondoimagen": "images/antiabrasivas.jpg"
+    },
+    "ASTM_A516_Gr_70PAR": {
+      "seccion":"PLANCHA DE ALTA RESISTENCIA",
+      "titulo": "ASTM A516 Gr 70",
+      "categoria": "PLANCHA DE ALTA RESISTENCIA",
+      "descripcion": "ASTM A516 Gr 70.",
+      "imagen": "images/ASTM_A516_Gr_70PAR.jpg",
+      "fondoimagen": "images/ASTM_A516_Gr_70PAR.jpg"
+    },
+    "ASTM_A709_Gr_50PAR": {
+      "seccion":"PLANCHA DE ALTA RESISTENCIA",
+      "titulo": "BRINELL 400 / 450 / 500",
+      "categoria": "PLANCHA DE ALTA RESISTENCIA",
+      "descripcion": "BRINELL 400 / 450 / 500.",
+      "imagen": "images/ASTM_A709_Gr_50PAR.jpg",
+      "fondoimagen": "images/ASTM_A709_Gr_50PAR.jpg"
+    },
+    "ASTM_A612": {
+      "seccion":"PLANCHAS PARA TANQUES A PRESIÓN",
+      "titulo": "ASTM A612",
+      "categoria": "PLANCHAS PARA TANQUES A PRESIÓN",
+      "descripcion": "ASTM A612.",
+      "imagen": "images/ASTM_A612.jpg",
+      "fondoimagen": "images/ASTM_A612.jpg"
+    },
+    "ASTM_A516_Gr_70PTP": {
+      "seccion":"PLANCHAS PARA TANQUES A PRESIÓN",
+      "titulo": "ASTM A516 Gr 70",
+      "categoria": "PLANCHAS PARA TANQUES A PRESIÓN",
+      "descripcion": "ASTM A516 Gr 70.",
+      "imagen": "images/ASTM_A516_Gr_70PTP.jpg",
+      "fondoimagen": "images/ASTM_A516_Gr_70PTP.jpg"
+    },
+    "ASTM_A285_Gr_C": {
+      "seccion":"PLANCHAS PARA TANQUES A PRESIÓN",
+      "titulo": "ASTM A285 Gr C",
+      "categoria": "PLANCHAS PARA TANQUES A PRESIÓN",
+      "descripcion": "ASTM A285 Gr C.",
+      "imagen": "images/ASTM_A285_Gr_C.jpg",
+      "fondoimagen": "images/ASTM_A285_Gr_C.jpg"
+    },
+    "ASTM_A242": {
+      "seccion":"PLANCHAS ACERO CORTEN",
+      "titulo": "ASTM A242",
+      "categoria": "PLANCHAS ACERO CORTEN",
+      "descripcion": "ASTM A242.",
+      "imagen": "images/ASTM_A242.jpg",
+      "fondoimagen": "images/ASTM_A242.jpg"
+    },
+    "ASTM_A588": {
+      "seccion":"PLANCHAS ACERO CORTEN",
+      "titulo": "ASTM A588",
+      "categoria": "PLANCHAS ACERO CORTEN",
+      "descripcion": "ASTM A588.",
+      "imagen": "images/ASTM_A588.jpg",
+      "fondoimagen": "images/ASTM_A588.jpg"
+    },
+    "ASTM_A179": {
+      "seccion":"TUBOS DE CALDERO",
+      "titulo": "ASTM A179",
+      "categoria": "TUBOS DE CALDERO",
+      "descripcion": "ASTM A179.",
+      "imagen": "images/ASTM_A179.jpg",
+      "fondoimagen": "images/ASTM_A179.jpg"
+    },
+    "ASTM_A_192": {
+      "seccion":"TUBOS DE CALDERO",
+      "titulo": "ASTM A 192",
+      "categoria": "TUBOS DE CALDERO",
+      "descripcion": "ASTM A 192.",
+      "imagen": "images/ASTM_A_192.jpg",
+      "fondoimagen": "images/ASTM_A_192.jpg"
+    },
+    "TUBOS_ACERO_A53": {
+      "seccion":"TUBOS ESTRUCTURALES",
+      "titulo": "TUBOS ACERO A53 SCH 40/80/160",
+      "categoria": "TUBOS ESTRUCTURALES",
+      "descripcion": "TUBOS ACERO A53 SCH 40/80/160.",
+      "imagen": "images/TUBOS_ACERO_A53.jpg",
+      "fondoimagen": "images/TUBOS_ACERO_A53.jpg"
+    },
+    "TUBOS_REDONDOS": {
+      "seccion":"TUBOS ESTRUCTURALES",
+      "titulo": "TUBOS REDONDOS A500",
+      "categoria": "TUBOS ESTRUCTURALES",
+      "descripcion": "TUBOS REDONDOS A500.",
+      "imagen": "images/TUBOS_REDONDOS.jpg",
+      "fondoimagen": "images/TUBOS_REDONDOS.jpg"
+    },
+    "TUBOS_CUADRADOS": {
+      "seccion":"TUBOS ESTRUCTURALES",
+      "titulo": "TUBOS CUADRADOS Y RECTANGULARES A500",
+      "categoria": "TUBOS ESTRUCTURALES",
+      "descripcion": "TUBOS CUADRADOS Y RECTANGULARES A500.",
+      "imagen": "images/TUBOS_CUADRADOS.jpg",
+      "fondoimagen": "images/TUBOS_CUADRADOS.jpg"
+    },
+    "SAE_1020": {
+      "seccion":"EJES DE ACERO",
+      "titulo": "SAE 1020",
+      "categoria": "EJES DE ACERO",
+      "descripcion": "SAE 1020.",
+      "imagen": "images/SAE_1020.jpg",
+      "fondoimagen": "images/SAE_1020.jpg"
+    },
+    "TSAE_1045": {
+      "seccion":"EJES DE ACERO",
+      "titulo": "TSAE 1045",
+      "categoria": "EJES DE ACERO",
+      "descripcion": "TSAE 1045.",
+      "imagen": "images/TSAE_1045.jpg",
+      "fondoimagen": "images/TSAE_1045.jpg"
+    },
+    "VIGAS_Y_CANALES": {
+      "seccion":"VIGAS Y CANALES",
+      "titulo": "VIGAS Y CANALES",
+      "categoria": "VIGAS Y CANALES",
+      "descripcion": "VIGAS Y CANALES.",
+      "imagen": "images/VIGAS_Y_CANALES.jpg",
+      "fondoimagen": "images/VIGAS_Y_CANALES.jpg"
+    },
+    "INOXIDABLES": {
+      "seccion":"INOXIDABLES",
+      "titulo": "INOXIDABLES",
+      "categoria": "INOXIDABLES",
+      "descripcion": "INOXIDABLES.",
+      "imagen": "images/INOXIDABLES.jpg",
+      "fondoimagen": "images/INOXIDABLES.jpg"
+    }
+
+  }
+  

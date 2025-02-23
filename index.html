@@ -47,79 +47,16 @@
                                 <li class="nav-item"><a href="about.html" class="nav-link">NOSOTROS</a></li>
                                 <li class="nav-item"><a href="services.html" class="nav-link">SERVICIOS</a></li>
 
-                                <li class="dropdown">
-                                  <label class="dropdown-label" for="productos-toggle">
-                                    PRODUCTOS ▷
-                                  </label>
-                                  <input type="checkbox" id="productos-toggle">
-                                  <div class="mega-menu">
-                                    <ul class="menu-horizontal">
-                                      <div class="col">
-                                        <h6>PLANCHAS ESTRUCTURALES</h6>
-                                        <ul>
-                                          <li><a href="astm_a36.html">ASTM A36</a></li>
-                                          <li><a href="#">NAVAL ASTM A131 Gr A</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>PLANCHAS ANTIABRASIVAS</h6>
-                                        <ul><li><a href="#">BRINELL 400 / 450 / 500</a></li></ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>PLANCHA DE ALTA RESISTENCIA</h6>
-                                        <ul>
-                                          <li><a href="#">ASTM A516 Gr 70</a></li>
-                                          <li><a href="#">ASTM A709 Gr 50</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>PLANCHAS PARA TANQUES A PRESIÓN</h6>
-                                        <ul>
-                                          <li><a href="#">ASTM A612</a></li>
-                                          <li><a href="#">ASTM A516 Gr 70</a></li>
-                                          <li><a href="#">ASTM A285 Gr C</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>PLANCHAS ACERO CORTEN</h6>
-                                        <ul>
-                                          <li><a href="#">ASTM A242</a></li>
-                                          <li><a href="#">ASTM A588</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>TUBOS DE CALDERO</h6>
-                                        <ul>
-                                          <li><a href="#">ASTM A179</a></li>
-                                          <li><a href="#">ASTM A 192</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>TUBOS ESTRUCTURALES</h6>
-                                        <ul>
-                                          <li><a href="#">TUBOS ACERO A53 SCH 40/80/160</a></li>
-                                          <li><a href="#">TUBOS REDONDOS A500</a></li>
-                                          <li><a href="#">TUBOS CUADRADOS Y RECTANGULARES A500</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>EJES DE ACERO</h6>
-                                        <ul>
-                                          <li><a href="#">SAE 1020</a></li>
-                                          <li><a href="#">TSAE 1045</a></li>
-                                        </ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>VIGAS Y CANALES</h6>
-                                        <ul><li><a href="#">VIGAS Y CANALES</a></li></ul>
-                                      </div>
-                                      <div class="col">
-                                        <h6>INOXIDABLES</h6>
-                                        <ul><li><a href="#">INOXIDABLES</a></li></ul>
-                                      </div>
-                                    </ul>
-                                  </div>
-                                </li>
+                                <li id="menu-productos"></il>
+
+                                  <script>
+                                    fetch('menuproductos.html')
+                                      .then(response => response.text())
+                                      .then(data => {
+                                        document.getElementById('menu-productos').innerHTML = data;
+                                      })
+                                      .catch(error => console.error('Error cargando el menú:', error));
+                                  </script>
                               <li class="nav-item"><a href="contact.html" class="nav-link">CONTACTO</a></li>
                              </ul>
                           </div>
@@ -283,7 +220,6 @@
                <li><a href="index.html" class="py-2 d-block">Inicio</a></li>
                <li><a href="about.html" class="py-2 d-block">Nostros</a></li>
                <li><a href="services.html" class="py-2 d-block">Servicios</a></li>
-               <li><a href="productos.html" class="py-2 d-block">Productos</a></li>
                <li><a href="contact.html" class="py-2 d-block">Contactanos</a></li>
              </ul>
            </div>
