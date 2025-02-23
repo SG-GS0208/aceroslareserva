@@ -123,88 +123,146 @@
 </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/contacto.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/productos.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">INICIO<i class="ion-ios-arrow-forward"></i></a></span> <span>CONTACTO<i class="ion-ios-arrow-forward"></i></span></p>
-            <h1 class="mb-3 bread">Contáctanos</h1>
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">INICIO<i class="ion-ios-arrow-forward"></i></a></span> <span>PRODUCTOS<i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">PLANCHAS ESTRUCTURALES</h1>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="ftco-section contact-section" style="background-color: #757575;">
+    <section class="ftco-section ftco-about bg-light">
       <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-          <div class="col-md-4">
-            <div class="border w-100 p-4 rounded mb-2 d-flex align-items-center" style="background-color: #fff;">
-              <div class="icon mr-3">
-                <span class="icon-map-o"></span>
-              </div>
-              <p class="mb-0"><span>Direccion :</span> LIMA - LURIGANCHO CHOSICA</p>
+        <div class="row no-gutters align-items-center flex-md-row-reverse">
+          <div class="col-md-6 wrap-about ftco-animate fadeInRight">
+            <div class="heading-section pl-md-5">
+              <span class="subheading">PLANCHAS ESTRUCTURALES</span>
+              <h2 class="mb-4" id="mision">ASTM A36</h2>
+              <p id = "mision">Planchas de acero de alta resistencia, ideales para aplicaciones estructurales. Su excelente soldabilidad, ductilidad y versatilidad las hacen perfectas para construcción de edificaciones, puentes y estructuras industriales.</p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="border w-100 p-4 rounded mb-2 d-flex align-items-center" style="background-color: #fff;">
-              <div class="icon mr-3">
-                <span class="icon-mobile-phone"></span>
-              </div>
-              <p class="mb-0">
-                <span>Telefono:</span>
-                <a href="https://api.whatsapp.com/send/?phone=51946129505&text&type=phone_number&app_absent=0" target="_blank" class="whatsapp-button">
-                  +51 946 129 505
-                </a>
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="border w-100 p-4 rounded mb-2 d-flex align-items-center" style="background-color: #fff;">
-              <div class="icon mr-3">
-                <span class="icon-envelope-o"></span>
-              </div>
-              <p class="mb-0">
-                <span>Email:</span>
-                <a href="mailto:ventas@aceroslareserva.com">ventas@aceroslareserva.com</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="row justify-content-center">
-        	<div class="col-md-12">
-        		<div id="map" class="bg-white"></div>
-        	</div>
+          <div class="col-md-6 img img-2 d-flex justify-content-center align-items-center parallax-img" style="background-image: url(images/astm_a36.jpg);"></div>
         </div>
       </div>
     </section>
+    
+    <style>
+    .ftco-about .heading-section {
+  padding: 2rem;
+}
+
+.ftco-about .heading-section p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.heading-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #e30613;
+  margin: 1rem 0;
+}
+.ftco-section.ftco-about.bg-light {
+  background-color: #c6c6c6 !important; /* 🌈 Cambia el color por el que desees */
+}
+.wrap-about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000000;
+  text-align: justify; /* Entalle de texto */
+  max-width: 500px; /* Limita el ancho para una mejor lectura */
+  margin: 0 auto; /* Centra el texto si es necesario */
+}
+.img {
+  height: 400px; /* Ajusta según lo necesites */
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .heading-section h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .heading-section {
+  padding-left: 2rem;
+}
+
+.heading-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #000000;
+}
+
+.wrap-about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000000;
+  text-align: justify; /* Entalle de texto */
+  max-width: 500px; /* Limita el ancho para una mejor lectura */
+  margin: 0 auto; /* Centra el texto si es necesario */
+}
 
 
+  .img {
+    height: 300px;
+  }
+
+  .heading-section .subheading {
+        text-transform: uppercase;
+        color : #000000;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+         
+      .heading-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #fff;
+  margin: 1rem 0;
+}
+}
+
+
+    </style>
+   
+    
+		
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2"><a  class="logo">ACEROS<span> LA RESERVA</span></a></h2>
-              <p>Tu empresa de confianza dedicada a la importación y comercialización de aceros, ofreciendo productos y servicios de calidad para los rubros de Construcción, Industria, Minería y demás.</p>
+              <p>Tu empresa de confianza dedicada a la importación y comercialización de aceros, ofreciendo productos y servicios de calidad para los rubros de Construcción, Industria, Minería y demás.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61555660312418"><span class="icon-facebook"></span></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-             <h2 class="ftco-heading-2">Información</h2>
-             <ul class="list-unstyled">
-               <li><a href="index.html" class="py-2 d-block">Inicio</a></li>
-               <li><a href="about.html" class="py-2 d-block">Nostros</a></li>
-               <li><a href="services.html" class="py-2 d-block">Servicios</a></li>
-               <li><a href="productos.html" class="py-2 d-block">Productos</a></li>
-               <li><a href="contact.html" class="py-2 d-block">Contactanos</a></li>
-             </ul>
-           </div>
-         </div>
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Información</h2>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="py-2 d-block">Inicio</a></li>
+                <li><a href="about.html" class="py-2 d-block">Nostros</a></li>
+                <li><a href="services.html" class="py-2 d-block">Servicios</a></li>
+                <li><a href="productos.html" class="py-2 d-block">Productos</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contactanos</a></li>
+              </ul>
+            </div>
+          </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
             	<h2 class="ftco-heading-2">¿Tienes dudas?</h2>
@@ -214,7 +272,7 @@
 	                <li><span class="icon icon-phone"></span><span class="text">989 434 311</span></li>
                   <li><span class="icon icon-phone"></span><span class="text">946 174 306</span></li>
 	                <li><span class="icon icon-phone"></span><span class="text">960 736 127</span></li>
-
+                  
 	                <li><span class="icon icon-envelope"></span><span class="text">ventas@aceroslareserva.com</span></li>
 	              </ul>
 	            </div>
@@ -252,7 +310,7 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL46njLXgD9cklVvCCcpcmnWI_IBEMrpo"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
     

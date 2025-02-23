@@ -3390,7 +3390,7 @@ input[type="button"].btn-block {
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #495057;
-    background-color: #fff;
+    background-color: #ffcf;
     border-color: #dee2e6 #dee2e6 #fff; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
@@ -3745,6 +3745,7 @@ input[type="button"].btn-block {
       text-decoration: underline; /* Subrayado opcional */
       transform: scale(1.1); /* Aumenta ligeramente el tamaño */
   }
+  
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -8366,9 +8367,210 @@ h1, h2, h3, h4, h5,
   font-size: 20px;
   text-transform: uppercase; }
 
+/* AQUI SE ADJUNTO TODO ACERCA DEL SELECTED */
 
-
+.mega-menu {
+  display: none;
+  position: fixed;
+  left: 2rem;           /* 2rem ~ 32px de margen izquierdo */
+  top: 100px;
+  width: 80vw;          /* ancho un poco menor para que no desborde */
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #d32f2f;
+  z-index: 90;
+  transition: all 0.3s ease;
+  }
   
+  .navbar-nav li a {
+  text-decoration: none;      /* Elimina el subrayado de los enlaces */
+  color: #333;               /* Color del texto */
+  font-weight: bold;          /* Texto en negrita */
+  }
+  
+  .navbar-nav li a:hover {
+  color: #ff0000;             /* Cambia el color al pasar el cursor */
+  }
+  
+  
+  .dropdown .h5 {
+  background-color: #fff;
+  }
+  /* Estilo de los enlaces normales */
+  
+  .dropdown-label {
+  display: inline-block;     /* Igual que <a> */
+  background-color:  transparent; /* mismo color */
+  color:#fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  line-height: 1.5;
+  vertical-align: middle;    /* Para que se alinee con los demás */
+  cursor: pointer;           /* Que el cursor sea “manito” */
+  /* Aplica hover si quieres */
+  }
+  
+  
+  /* Si quieres un hover similar al de los enlaces */
+  .dropdown-label:hover {
+  background-color: rgba(255,255,255,0.1);
+  /* o el estilo que uses en :hover para tus enlaces */
+  }
+  
+  
+  .menu-horizontal {
+  display: grid;
+  /* Reduce el minmax y el gap para compactar aún más */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  }
+  
+  /* Sección de cada columna */
+  .menu-horizontal .col {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  /* Títulos (h6) con letra más pequeña */
+  .menu-horizontal .col h6 {
+  font-weight: 700;
+  color: #d32f2f;
+  font-size: 0.85rem;     /* más chico que 14px */
+  margin-bottom: 6px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 3px;
+  }
+  
+  /* Enlaces con letra y espacio reducidos */
+  .menu-horizontal a {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  font-size: 0.75rem;     /* más chico que 0.9rem */
+  line-height: 1.2;       /* reduce la altura de línea para compactar */
+  padding: 4px 0;         /* menos espacio vertical */
+  text-decoration: none;
+  transition: color 0.3s, transform 0.2s;
+  }
+  
+  .menu-horizontal a:hover {
+  color: #d32f2f;
+  transform: translateX(5px);
+  }
+  
+  /* Control del despliegue sin JS */
+  .dropdown input[type="checkbox"] {
+  display: none;
+  }
+  
+  .dropdown input[type="checkbox"]:checked ~ .mega-menu,
+  .dropdown:hover .mega-menu {
+  display: block;
+  }
+  
+  .dropdown {
+  position: relative;
+  }
+  
+  .ftco-navbar-light.scrolled .dropdown-label{
+    padding-top: 0.9rem !important;
+    padding-bottom: 0.9rem !important;
+    color: #000000 !important; }
+  /* =========================
+  Para tablets (<= 768px)
+  ========================= */
+  @media (max-width: 991px) {
+  .mega-menu {
+  /* Ajustamos posición y tamaño para tablets */
+  left: 1rem;           /* menos margen izquierdo */
+  top: 80px;            /* sube o baja según tu navbar */
+  width: 90vw;          /* ocupa casi todo el ancho */
+  padding: 15px 20px;
+  max-height: calc(100vh - 80px); 
+  /* max-height para que no ocupe toda la pantalla si es muy grande;
+     con overflow-y: auto para que aparezca scroll si excede */
+  overflow-y: auto;
+  }
+  .dropdown-label {
+  background-color:  #080808; /* mismo color */
+  color:#fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  display: inline-block;
+  line-height: 1.5;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  }
+  
+  .ftco-navbar-light.scrolled .dropdown-label{
+    padding-top: 0.9rem !important;
+    padding-bottom: 0.9rem !important;
+    color: #fff !important; }
+  .menu-horizontal {
+  /* Menos columnas o columnas más pequeñas */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;  /* menos espacio entre columnas */
+  }
+  
+  /* Ajustar tamaños de fuente para tablet */
+  .menu-horizontal .col h6 {
+  font-size: 0.8rem;
+  }
+  .menu-horizontal a {
+  font-size: 0.7rem;
+  }
+  }
+  
+  /* =========================
+  Para móviles (<= 480px)
+  ========================= */
+  @media (max-width: 480px) {
+  .mega-menu {
+  left: 0;
+  top: 70px;            /* ajusta según tu navbar */
+  width: 100vw;         /* ocupa todo el ancho en móvil */
+  padding: 10px 15px;
+  max-height: calc(100vh - 70px);
+  overflow-y: auto;
+  }
+  .dropdown-label {
+  background-color:  #080808; /* mismo color */
+  color:#fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  display: inline-block;
+  line-height: 1.5;
+  vertical-align: middle;
+  cursor: pointer;
+  text-decoration: none;
+  }
+  
+  
+  .menu-horizontal {
+  /* Para móvil, 1 columna (o 2, si prefieres) */
+  grid-template-columns: 1fr;
+  gap: 8px;
+  }
+  
+  /* Aún más pequeña la letra */
+  .menu-horizontal .col h6 {
+  font-size: 0.75rem;
+  }
+  .menu-horizontal a {
+  font-size: 0.65rem;
+  }
+  }
+  
+  
+/* //////////////////////////////////////////////*/
+
 .hero-wrap {
   width: 100%;
   height: 850px;
@@ -8990,11 +9192,6 @@ h1, h2, h3, h4, h5,
       .table tbody tr td.price:hover .price-rate {
         opacity: 0; }
 
-.ftco-about {
-  position: relative;
-  background: linear-gradient(to right, #808080 50%, #e30613 50%);
-  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%); /* Ajusta los valores */
-  z-index: 0; }
 
   
   .ftco-about:after {
@@ -9086,10 +9283,7 @@ h1, h2, h3, h4, h5,
   position: relative; }
   .ftco-section-parallax .heading-section-white h2 {
     font-weight: 400 !important; }
-    .ftco-section.ftco-about {
-      background-color: #c6c8ca; /* Un gris oscuro */
-      color: #ffffff; /* Texto en blanco para contraste */
-  }
+    
   
 
   
@@ -9175,7 +9369,6 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  
   padding: 6em 0;
   position: relative; }
   @media (max-width: 767.98px) {
@@ -9357,7 +9550,8 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center; 
+}
 
 .testimony-section {
   position: relative; }
