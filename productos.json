@@ -12,7 +12,7 @@
       "seccion":"PLANCHAS ESTRUCTURALES",
       "titulo": "NAVAL ASTM A131 Gr A",
       "categoria": "PLANCHAS ESTRUCTURALES",
-      "descripcion": "Planchas de acero naval, diseñadas para soportar ambientes marinos con alta resistencia a la corrosión.",
+      "descripcion": "Planchas de acero de alta resistencia y soldabilidad, diseñadas para aplicaciones navales y estructuras marinas. Cumplen con la norma ASTM A131 Gr A, ideales para la construcción de cascos de barcos, plataformas offshore y componentes expuestos a ambientes corrosivos, garantizando durabilidad y rendimiento estructural.",
       "imagen": "images/acero7.jpg",
       "fondoimagen": "images/acero7.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -22,7 +22,7 @@
       "seccion":"PLANCHAS ANTIABRASIVAS",
       "titulo": "BRINELL 400 / 450 / 500",
       "categoria": "PLANCHAS ANTIABRASIVAS",
-      "descripcion": "BRINELL 400 / 450 / 500.",
+      "descripcion": "Planchas de acero diseñadas para resistir altos niveles de desgaste y abrasión, ideales para aplicaciones en minería, construcción y maquinaria pesada. Con durezas Brinell 400, 450 y 500, ofrecen excelente durabilidad, resistencia al impacto y prolongada vida útil en entornos de trabajo exigentes.",
       "imagen": "images/antiabrasivas.jpg",
       "fondoimagen": "images/antiabrasivas.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -32,7 +32,7 @@
       "seccion":"PLANCHA DE ALTA RESISTENCIA",
       "titulo": "ASTM A516 Gr 70",
       "categoria": "PLANCHA DE ALTA RESISTENCIA",
-      "descripcion": "ASTM A516 Gr 70.",
+      "descripcion": "Planchas de acero de alta resistencia y excelente tenacidad, fabricadas según la norma ASTM A516 Gr 70. Ideales para la fabricación de recipientes a presión, calderas y equipos que operan a temperaturas moderadas y bajas. Ofrecen buena soldabilidad, resistencia a la fractura y un rendimiento confiable en aplicaciones industriales exigentes.",
       "imagen": "images/ASTM_A516_Gr_70PAR.jpg",
       "fondoimagen": "images/ASTM_A516_Gr_70PAR.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -40,9 +40,9 @@
     },
     "ASTM_A709_Gr_50PAR": {
       "seccion":"PLANCHA DE ALTA RESISTENCIA",
-      "titulo": "BRINELL 400 / 450 / 500",
+      "titulo": "ASTM A709 Gr 50",
       "categoria": "PLANCHA DE ALTA RESISTENCIA",
-      "descripcion": "BRINELL 400 / 450 / 500.",
+      "descripcion": "Planchas de acero de alta resistencia y bajo contenido de aleación, fabricadas conforme a la norma ASTM A709 Gr 50. Especialmente diseñadas para aplicaciones estructurales en puentes y construcciones que requieren alta durabilidad y resistencia a la corrosión. Ofrecen excelente soldabilidad, resistencia al impacto y un rendimiento óptimo en entornos exigentes.",
       "imagen": "images/ASTM_A709_Gr_50PAR.jpg",
       "fondoimagen": "images/ASTM_A709_Gr_50PAR.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -52,7 +52,7 @@
       "seccion":"PLANCHAS PARA TANQUES A PRESIÓN",
       "titulo": "ASTM A612",
       "categoria": "PLANCHAS PARA TANQUES A PRESIÓN",
-      "descripcion": "ASTM A612.",
+      "descripcion": "Planchas de acero al carbono y manganeso, fabricadas según la norma ASTM A612, diseñadas para la construcción de tanques a presión y calderas que operan a temperaturas moderadas y bajas. Ofrecen excelente resistencia al impacto, buena soldabilidad y alta tenacidad, garantizando seguridad y rendimiento en aplicaciones industriales exigentes.",
       "imagen": "images/ASTM_A612.jpg",
       "fondoimagen": "images/ASTM_A612.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -62,7 +62,7 @@
       "seccion":"PLANCHAS PARA TANQUES A PRESIÓN",
       "titulo": "ASTM A516 Gr 70",
       "categoria": "PLANCHAS PARA TANQUES A PRESIÓN",
-      "descripcion": "ASTM A516 Gr 70.",
+      "descripcion": "Planchas de acero al carbono de alta resistencia, fabricadas conforme a la norma ASTM A516 Gr 70. Ideales para la construcción de tanques a presión, calderas y recipientes sometidos a temperaturas moderadas y bajas. Ofrecen excelente soldabilidad, alta tenacidad y resistencia a la fractura, garantizando un rendimiento seguro y duradero en aplicaciones industriales críticas.",
       "imagen": "images/ASTM_A516_Gr_70PTP.jpg",
       "fondoimagen": "images/ASTM_A516_Gr_70PTP.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -72,7 +72,7 @@
       "seccion":"PLANCHAS PARA TANQUES A PRESIÓN",
       "titulo": "ASTM A285 Gr C",
       "categoria": "PLANCHAS PARA TANQUES A PRESIÓN",
-      "descripcion": "ASTM A285 Gr C.",
+      "descripcion": "Planchas de acero al carbono fabricadas bajo la norma ASTM A285 Gr C, diseñadas para la construcción de tanques a presión y calderas que operan a bajas y moderadas presiones. Ofrecen buena soldabilidad, resistencia a la tracción moderada y excelente ductilidad, lo que las hace ideales para aplicaciones donde se requiere seguridad y rendimiento confiable.",
       "imagen": "images/ASTM_A285_Gr_C.jpg",
       "fondoimagen": "images/ASTM_A285_Gr_C.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -82,7 +82,7 @@
       "seccion":"PLANCHAS ACERO CORTEN",
       "titulo": "ASTM A242",
       "categoria": "PLANCHAS ACERO CORTEN",
-      "descripcion": "ASTM A242.",
+      "descripcion": "Planchas de acero de alta resistencia a la corrosión atmosférica, fabricadas según la norma ASTM A242. Ideales para aplicaciones arquitectónicas, estructuras expuestas al aire libre y proyectos donde se busca un acabado estético y duradero sin necesidad de pintura. Ofrecen excelente resistencia mecánica, soldabilidad y una larga vida útil en entornos corrosivos.",
       "imagen": "images/ASTM_A242.jpg",
       "fondoimagen": "images/ASTM_A242.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -92,7 +92,7 @@
       "seccion":"PLANCHAS ACERO CORTEN",
       "titulo": "ASTM A588",
       "categoria": "PLANCHAS ACERO CORTEN",
-      "descripcion": "ASTM A588.",
+      "descripcion": "Planchas de acero de alta resistencia y baja aleación, fabricadas conforme a la norma ASTM A588. Diseñadas para ofrecer una excelente resistencia a la corrosión atmosférica, son ideales para estructuras expuestas al aire libre, puentes y aplicaciones arquitectónicas. Su capacidad de formar una pátina protectora reduce la necesidad de mantenimiento, ofreciendo durabilidad, soldabilidad y un atractivo acabado natural.",
       "imagen": "images/ASTM_A588.jpg",
       "fondoimagen": "images/ASTM_A588.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -102,7 +102,7 @@
       "seccion":"TUBOS DE CALDERO",
       "titulo": "ASTM A179",
       "categoria": "TUBOS DE CALDERO",
-      "descripcion": "ASTM A179.",
+      "descripcion": "Tubos de acero al carbono sin costura, fabricados conforme a la norma ASTM A179, ideales para intercambiadores de calor, condensadores y calderas. Ofrecen excelente conductividad térmica, alta resistencia a la tracción y buena ductilidad, lo que garantiza un rendimiento eficiente y seguro en aplicaciones de alta temperatura y presión.",
       "imagen": "images/ASTM_A179.jpg",
       "fondoimagen": "images/ASTM_A179.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -112,7 +112,7 @@
       "seccion":"TUBOS DE CALDERO",
       "titulo": "ASTM A 192",
       "categoria": "TUBOS DE CALDERO",
-      "descripcion": "ASTM A 192.",
+      "descripcion": "Tubos de acero al carbono de alta resistencia, fabricados según la norma ASTM A192, diseñados para aplicaciones en calderas, intercambiadores de calor y generadores de vapor a alta presión. Ofrecen excelente resistencia a la tracción, alta conductividad térmica y buena soldabilidad, garantizando un rendimiento seguro y eficiente en entornos industriales exigentes.",
       "imagen": "images/ASTM_A_192.jpg",
       "fondoimagen": "images/ASTM_A_192.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -122,7 +122,7 @@
       "seccion":"TUBOS ESTRUCTURALES",
       "titulo": "TUBOS ACERO A53 SCH 40/80/160",
       "categoria": "TUBOS ESTRUCTURALES",
-      "descripcion": "TUBOS ACERO A53 SCH 40/80/160.",
+      "descripcion": "Tubos de acero al carbono fabricados según la norma ASTM A53, disponibles en especificaciones SCH 40, 80 y 160. Ideales para aplicaciones estructurales, conducción de vapor, agua, gas y aire en proyectos industriales y de construcción. Ofrecen excelente resistencia mecánica, buena soldabilidad y durabilidad, garantizando un rendimiento fiable en entornos exigentes.",
       "imagen": "images/TUBOS_ACERO_A53.jpg",
       "fondoimagen": "images/TUBOS_ACERO_A53.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -132,7 +132,7 @@
       "seccion":"TUBOS ESTRUCTURALES",
       "titulo": "TUBOS REDONDOS A500",
       "categoria": "TUBOS ESTRUCTURALES",
-      "descripcion": "TUBOS REDONDOS A500.",
+      "descripcion": "Tubos redondos de acero al carbono fabricados bajo la norma ASTM A500, ideales para aplicaciones estructurales en construcción, infraestructura y proyectos industriales. Ofrecen alta resistencia, excelente soldabilidad y un acabado uniforme, lo que garantiza durabilidad, eficiencia y rendimiento óptimo en estructuras que requieren soportes robustos y confiables.",
       "imagen": "images/TUBOS_REDONDOS.jpg",
       "fondoimagen": "images/TUBOS_REDONDOS.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -142,7 +142,7 @@
       "seccion":"TUBOS ESTRUCTURALES",
       "titulo": "TUBOS CUADRADOS Y RECTANGULARES A500",
       "categoria": "TUBOS ESTRUCTURALES",
-      "descripcion": "TUBOS CUADRADOS Y RECTANGULARES A500.",
+      "descripcion": "Tubos estructurales de acero al carbono con secciones cuadradas y rectangulares, fabricados según la norma ASTM A500. Ideales para aplicaciones en construcción, infraestructura y proyectos industriales donde se requiere alta resistencia estructural, excelente soldabilidad y un acabado uniforme. Ofrecen durabilidad, eficiencia y un rendimiento óptimo en soportes y estructuras robustas.",
       "imagen": "images/TUBOS_CUADRADOS.jpg",
       "fondoimagen": "images/TUBOS_CUADRADOS.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -152,7 +152,7 @@
       "seccion":"EJES DE ACERO",
       "titulo": "SAE 1020",
       "categoria": "EJES DE ACERO",
-      "descripcion": "SAE 1020.",
+      "descripcion": "Ejes de acero al carbono fabricados con la especificación SAE 1020, ideales para aplicaciones mecánicas y estructurales que requieren buena maquinabilidad y soldabilidad. Ofrecen una combinación equilibrada de resistencia, ductilidad y tenacidad, lo que los hace perfectos para componentes de maquinaria, piezas automotrices y estructuras donde se necesita un rendimiento confiable y duradero.",
       "imagen": "images/SAE_1020.jpg",
       "fondoimagen": "images/SAE_1020.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -162,7 +162,7 @@
       "seccion":"EJES DE ACERO",
       "titulo": "TSAE 1045",
       "categoria": "EJES DE ACERO",
-      "descripcion": "TSAE 1045.",
+      "descripcion": "Ejes de acero al carbono medio fabricados bajo la especificación SAE 1045, ideales para aplicaciones que requieren alta resistencia mecánica y buena tenacidad. Ofrecen excelente maquinabilidad, buena soldabilidad y capacidad de tratamiento térmico, lo que los hace perfectos para componentes de maquinaria, ejes de transmisión, engranajes y otras piezas sometidas a esfuerzos elevados.",
       "imagen": "images/TSAE_1045.jpg",
       "fondoimagen": "images/TSAE_1045.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -172,7 +172,7 @@
       "seccion":"VIGAS Y CANALES",
       "titulo": "VIGAS Y CANALES",
       "categoria": "VIGAS Y CANALES",
-      "descripcion": "VIGAS Y CANALES.",
+      "descripcion": "Elementos estructurales de acero diseñados para brindar soporte y estabilidad en proyectos de construcción, infraestructura y aplicaciones industriales. Disponibles en diversas formas y tamaños, ofrecen alta resistencia mecánica, durabilidad y excelente capacidad de carga. Ideales para estructuras metálicas, marcos, puentes y edificaciones donde se requiere un rendimiento estructural seguro y confiable.",
       "imagen": "images/VIGAS_Y_CANALES.jpg",
       "fondoimagen": "images/VIGAS_Y_CANALES.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -182,7 +182,7 @@
       "seccion":"INOXIDABLES",
       "titulo": "INOXIDABLES",
       "categoria": "INOXIDABLES",
-      "descripcion": "INOXIDABLES.",
+      "descripcion": "Aceros inoxidables de alta calidad, reconocidos por su resistencia superior a la corrosión, durabilidad y acabado estético. Ideales para aplicaciones en la industria alimentaria, farmacéutica, construcción, arquitectura y fabricación de equipos que requieren higiene y bajo mantenimiento. Disponibles en diversas presentaciones, como planchas, tubos, barras y accesorios, ofrecen excelente soldabilidad, resistencia mecánica y larga vida útil en entornos exigentes.",
       "imagen": "images/INOXIDABLES.jpg",
       "fondoimagen": "images/INOXIDABLES.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
