@@ -12,7 +12,7 @@
       "seccion":"PLANCHAS ESTRUCTURALES",
       "titulo": "NAVAL ASTM A131 Gr A",
       "categoria": "PLANCHAS ESTRUCTURALES",
-      "descripcion": "Planchas de acero naval, diseñadas para soportar ambientes marinos con alta resistencia a la corrosión.",
+      "descripcion": "Planchas de acero estructural fabricadas bajo la norma ASTM A131 Gr A, especialmente diseñadas para aplicaciones en la industria naval y estructuras marinas. Ofrecen alta resistencia, excelente soldabilidad y durabilidad, siendo ideales para la construcción de cascos de barcos, plataformas offshore y otras estructuras expuestas a ambientes marinos, garantizando un rendimiento seguro y confiable.",
       "imagen": "images/acero7.jpg",
       "fondoimagen": "images/acero7.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
@@ -22,9 +22,9 @@
       "seccion":"PLANCHAS ANTIABRASIVAS",
       "titulo": "BRINELL 400 / 450 / 500",
       "categoria": "PLANCHAS ANTIABRASIVAS",
-      "descripcion": "BRINELL 400 / 450 / 500.",
-      "imagen": "images/antiabrasivas.jpg",
-      "fondoimagen": "images/antiabrasivas.jpg",
+      "descripcion": "Planchas de acero de alta resistencia al desgaste, diseñadas para soportar condiciones extremas de abrasión en aplicaciones industriales. Con niveles de dureza Brinell 400, 450 y 500, ofrecen excelente durabilidad, resistencia al impacto y prolongada vida útil. Ideales para maquinaria minera, equipos de construcción, tolvas, revestimientos y componentes expuestos a altos niveles de fricción y desgaste.",
+      "imagen": "images/antiabrasivas.png",
+      "fondoimagen": "images/antiabrasivas.png",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
 
     },
@@ -42,8 +42,8 @@
       "seccion":"PLANCHA DE ALTA RESISTENCIA",
       "titulo": "ASTM A709 Gr 50",
       "categoria": "PLANCHA DE ALTA RESISTENCIA",
-      "descripcion": "BRINELL 400 / 450 / 500.",
-      "imagen": "images/ASTM_A709_Gr_50PAR.jpg",
+      "descripcion": "Planchas de acero de alta resistencia y baja aleación, fabricadas conforme a la norma ASTM A709 Gr 50. Diseñadas para aplicaciones estructurales en puentes y construcciones donde se requiere alta durabilidad, resistencia a la corrosión y un rendimiento confiable. Ofrecen excelente soldabilidad, resistencia al impacto y un comportamiento óptimo en entornos exigentes.",
+      "imagen": "images/ASTM_A709_Gr_50PAR.jpeg",
       "fondoimagen": "images/ASTM_A709_Gr_50PAR.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
 
