@@ -13,8 +13,8 @@
       "titulo": "NAVAL ASTM A131 Gr A",
       "categoria": "PLANCHAS ESTRUCTURALES",
       "descripcion": "Planchas de acero naval, diseñadas para soportar ambientes marinos con alta resistencia a la corrosión.",
-      "imagen": "images/acero7.jpg",
-      "fondoimagen": "images/acero7.jpg",
+      "imagen": "images/astm_a131.jpg",
+      "fondoimagen": "images/astm_a131.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
 
     },
@@ -23,8 +23,8 @@
       "titulo": "BRINELL 400 / 450 / 500",
       "categoria": "PLANCHAS ANTIABRASIVAS",
       "descripcion": "BRINELL 400 / 450 / 500.",
-      "imagen": "images/antiabrasivas.jpg",
-      "fondoimagen": "images/antiabrasivas.jpg",
+      "imagen": "images/brinell.jpg",
+      "fondoimagen": "images/brinell.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
 
     },
@@ -43,8 +43,8 @@
       "titulo": "BRINELL 400 / 450 / 500",
       "categoria": "PLANCHA DE ALTA RESISTENCIA",
       "descripcion": "BRINELL 400 / 450 / 500.",
-      "imagen": "images/ASTM_A709_Gr_50PAR.jpg",
-      "fondoimagen": "images/ASTM_A709_Gr_50PAR.jpg",
+      "imagen": "images/ASTM_A709_Gr_50PARr.jpg",
+      "fondoimagen": "images/ASTM_A709_Gr_50PARr.jpg",
       "pdf": "pdf/PDFPREDETERMINADO.pdf"
 
     },
