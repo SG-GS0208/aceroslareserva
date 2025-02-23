@@ -79,7 +79,10 @@
             <span class="subheading" id ="categoria"></span>
             <h2 class="mb-4" id="titulo"></h2>
             <p id="descripcion"></p>
-          </div>
+            <a id="pdf" target="_blank">
+            <img src="images/pdf.png" alt="PDF" width="35" height="35">
+            </a>
+            </div>
         </div>
       <div class="col-md-6 img img-2 d-flex justify-content-center align-items-center parallax-img"></div>
 
@@ -108,6 +111,10 @@
                   document.getElementById("categoria").textContent = data[productoId].categoria;
                   document.getElementById("descripcion").textContent = data[productoId].descripcion;
                   document.querySelector(".parallax-img").style.backgroundImage = `url(${data[productoId].imagen})`;
+                  // Llamar al PDF y asignarlo al icono
+                  const pdfLink = document.getElementById("pdf");
+                  pdfLink.href = data[productoId].pdf;
+                  pdfLink.style.display = "inline"; // Asegurarse de que sea visible si estaba oculto
                 } else {
                   document.getElementById("titulo").textContent = "Producto no encontrado";
               }
