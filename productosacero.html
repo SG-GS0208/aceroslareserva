@@ -61,7 +61,7 @@
 </nav>
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/productos.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/prod3.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
@@ -72,26 +72,48 @@
         </div>
       </div>
     </section>
-    <section class="ftco-section ftco-about bg-light" >
+    <style>
+      #caracteristica {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        display: inline-block;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+      #usos {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        display: inline-block;
+        font-weight: bold;
+        border-radius: 5px;
+      }
+    </style>
+    
+    <section class="ftco-section ftco-about bg-light">
       <div class="container">
         <div class="row no-gutters align-items-center flex-md-row-reverse">
           <div class="col-md-6 wrap-about ftco-animate fadeInRight">
             <div class="heading-section pl-md-5">
-            <span class="subheading" id ="categoria"></span>
-            <h2 class="mb-4" id="titulo"></h2>
-            <p id="descripcion"></p>
-            <!--PDF AQUÍ-->
-            <!-- <a id="pdf" target="_blank">
-            <img src="images/pdf.png" alt="PDF" width="35" height="35">
-            </a> -->
-            </div>
-        </div>
-      <div class="col-md-6 img img-2 d-flex justify-content-center align-items-center parallax-img"></div>
+              <span class="subheading" id="categoria"></span>
+              <h2 class="mb-4" id="titulo"></h2>
+              <p class="subheading" id="caracteristica"></p>
+              <p id="descripcion"></p>
+              <p class="subheading" id="usos"></p>
+              <p id="descripcion2"></p>
 
+              <!--PDF AQUÍ-->
+              <!-- <a id="pdf" target="_blank">
+                <img src="images/pdf.png" alt="PDF" width="35" height="35">
+              </a> -->
+            </div>
+          </div>
+          <div class="col-md-6 img img-2 d-flex justify-content-center align-items-center parallax-img"></div>
         </div>
       </div>
-      
-  </section>
+    </section>
+    
 
   <script>
       // Función para obtener parámetros de la URL
@@ -112,6 +134,9 @@
                   document.getElementById("seccion").textContent = data[productoId].seccion;
                   document.getElementById("categoria").textContent = data[productoId].categoria;
                   document.getElementById("descripcion").textContent = data[productoId].descripcion;
+                  document.getElementById("caracteristica").textContent = data[productoId].caracteristica;
+                  document.getElementById("usos").textContent = data[productoId].usos;
+                  document.getElementById("descripcion2").textContent = data[productoId].descripcion2;
                   document.querySelector(".parallax-img").style.backgroundImage = `url(${data[productoId].imagen})`;
                   // Llamar al PDF y asignarlo al icono
                   const pdfLink = document.getElementById("pdf");
