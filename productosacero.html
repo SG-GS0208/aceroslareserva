@@ -33,7 +33,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="images/logoacerosactual.png" alt="ACEROS LA RESERVA SAC"></a>
+          <a class="navbar-brand" href="index.html"><img src="images/logaso.png" alt="ACEROS LA RESERVA SAC"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -73,22 +73,71 @@
       </div>
     </section>
     <style>
-      #caracteristica {
-        background-color: red;
-        color: white;
-        padding: 5px 10px;
-        display: inline-block;
-        font-weight: bold;
-        border-radius: 5px;
-      }
-      #usos {
-        background-color: red;
-        color: white;
-        padding: 5px 10px;
-        display: inline-block;
-        font-weight: bold;
-        border-radius: 5px;
-      }
+.centrar-etiquetas {
+  text-align: center;
+  margin: 20px 0;
+}
+.etiqueta {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 9px;
+  width: 250px; /* o el valor que se vea mejor */
+  text-align: center;
+}
+#caracteristica,
+#usos {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0 8px;
+  text-align: center;
+  font-size: 0.8rem;  /* Tamaño de fuente más pequeño */
+
+} 
+#titulo {
+  font-size: 1.7rem;  /* Tamaño de fuente más pequeño */
+  color: #000000;     /* Puedes elegir el color que prefieras */
+}
+#descripcion {
+  font-size: 0.8rem;  /* Tamaño de fuente más pequeño */
+  color: #000000;     /* Puedes elegir el color que prefieras */
+}
+#descripcion2 {
+  font-size: 0.8rem;  /* Tamaño de fuente más pequeño */
+  color: #000000;     /* Puedes elegir el color que prefieras */
+} 
+      .pdf-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente el texto y el logo */
+  justify-content: center; /* Centra el contenido de forma horizontal (opcional) */
+}
+
+.pdf-title {
+  font-size: 1.2rem; /* Tamaño del título */
+  margin-right: 10px; /* Espacio entre el texto y el logo */
+  font-weight: bold; /* Asegura que el texto esté en negrita */
+  color: #000000; /* Cambia el color del texto (rojo en este caso) */
+}
+
+#pdf {
+  display: flex;
+  justify-content: center; /* Centra el logo horizontalmente dentro del contenedor */
+  align-items: center; /* Centra el logo verticalmente dentro del contenedor */
+}
+
+.logo-pdf {
+  width: 70px;  /* Tamaño del logo */
+  height: 70px; /* Tamaño del logo */
+  object-fit: contain; /* Asegura que la imagen se ajuste correctamente */
+}
+
     </style>
     
     <section class="ftco-section ftco-about bg-light">
@@ -97,16 +146,21 @@
           <div class="col-md-6 wrap-about ftco-animate fadeInRight">
             <div class="heading-section pl-md-5">
               <span class="subheading" id="categoria"></span>
-              <h2 class="mb-4" id="titulo"></h2>
-              <p class="subheading" id="caracteristica"></p>
-              <p id="descripcion"></p>
-              <p class="subheading" id="usos"></p>
-              <p id="descripcion2"></p>
+              <h2 class="mb-4" id="titulo"></h2> 
+              <div  class="centrar-etiquetas">
+              <p class="etiqueta" id="caracteristica"></p></div> 
+              <p id="descripcion"></p> 
+              <div class="centrar-etiquetas">
+              <p class="etiqueta" id="usos"></p>  </div>
+              <p id="descripcion2"></p> 
 
-              <!--PDF AQUÍ-->
-              <!-- <a id="pdf" target="_blank">
-                <img src="images/pdf.png" alt="PDF" width="35" height="35">
-              </a> -->
+             
+              <div class="pdf-container"> 
+                <span class="pdf-title">Ficha técnica</span>
+                <a id="pdf" target="_blank">
+                  <br> <img src="images/pdf.png" alt="PDF" class="logo-pdf">
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-md-6 img img-2 d-flex justify-content-center align-items-center parallax-img"></div>
@@ -247,8 +301,16 @@
               <h2 class="ftco-heading-2"><a  class="logo">ACEROS<span> LA RESERVA</span></a></h2>
               <p>Tu empresa de confianza dedicada a la importación y comercialización de aceros, ofreciendo productos y servicios de calidad para los rubros de Construcción, Industria, Minería y demás.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61555660312418"><span class="icon-facebook"></span></a></li>
-              </ul>
+                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61555660312418"><span >
+                  <img src="images/facebook-logo.png" alt="Facebook" style="width: 30px; height: 30px;">
+                </span></a></li>
+                <li class="ftco-animate"><a href="https://api.whatsapp.com/send/?phone=51946174306&text&type=phone_number&app_absent=0"><span >
+                  <img src="images/whatsapp-icon.png" alt="Facebook" style="width: 30px; height: 30px;">
+                </span></a></li>  
+                <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=61555660312418"><span >
+                  <img src="images/icon-instagram.png" alt="Facebook" style="width: 30px; height: 30px;">
+                </span></a></li>
+              </ul> 
             </div>
           </div>
           <div class="col-md">

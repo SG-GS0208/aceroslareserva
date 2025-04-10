@@ -4,12 +4,12 @@
       "titulo": "ASTM A36",
       "categoria": "PLANCHAS ESTRUCTURALES",
      "caracteristica": "CARACTERÍSTICAS: ",
-      "descripcion": "Las planchas de acero A36 es un material de acero al carbono estructural que se utiliza para fabricar estructuras metálicas. Se caracteriza por tener un bajo contenido de carbono, lo que facilita su mecanizado, soldadura y conformado. ",
+      "descripcion": "Las planchas de acero A36 es un material de acero al carbono estructural que se utiliza para fabricar estructuras metálicas. Se caracteriza por tener un bajo contenido de carbono, lo que facilita su mecanizado, soldadura y conformado.",
       "usos": "USOS: ",
       "descripcion2": "Estructuras metálicas, equipos mecánicos, silos de almacenamiento, puentes, para perfiles conformados en frio, perfiles soldados, etc.",
       "imagen": "images/astm_a36.jpg",
       "fondoimagen": "images/astm_a36.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM_A36.pdf"
     },
     "astm_a131": {
       "seccion":"PLANCHAS ESTRUCTURALES",
@@ -21,7 +21,7 @@
       "descripcion2": "Construcción de embarcaciones pesqueras, chatas, pangas, boyas, tanques, tolvas, reparación y mantenimiento, etc.",
       "imagen": "images/astm_a131.jpg",
       "fondoimagen": "images/astm_a131.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM 131 Gr A.pdf"
 
     },
     "brinell": {
@@ -34,7 +34,7 @@
       "descripcion2": "Tolvas, cribas, tolvas de cangilones, elementos trituradores, palas de motoniveladoras, cangilones de cargador frontal, en industria, ciclones, cangilones de chatarra, contenedores, carros compactadores, rodillos, correderas, etc.",
       "imagen": "images/antiabrasivas.png",
       "fondoimagen": "images/antiabrasivas.png",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ANTIABRASIVAS.pdf"
 
     },
     "ASTM_A516_Gr_70PAR": {
@@ -47,7 +47,7 @@
       "descripcion2": "Calderas, Tuberías a presión o de vapor, Termos industriales, Intercambiadores de calor, Reactores, Vasos transportadores.",   
       "imagen": "images/ASTM_A516_Gr_70PAR.jpg",
       "fondoimagen": "images/ASTM_A516_Gr_70PAR.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM 516 Gr 70.pdf"
 
     },
     "ASTM_A709_Gr_50PAR": {
@@ -55,12 +55,12 @@
       "titulo": "ASTM A709 Gr 50",
       "categoria": "PLANCHA DE ALTA RESISTENCIA",
       "caracteristica": "CARACTERÍSTICAS: ",
-      "descripcion": "Plancha de acero al carbono laminada en caliente obtenido a partir de acero estructural de alta resistencia mecánica y de buena resistencia a la corrosión atmosférica.",
+      "descripcion": "Plancha de acero al carbono laminada en caliente obtenido a partir de acero estructural de alta resistencia mecánica.",
       "usos": "USOS: ",
-      "descripcion2": "Usados principalmente en la construcción de puentes, vigas soldadas, construccion de edificios, grúas puente, equipos mecánicos, material rodante, pilotes, tanques, estructuras metálicas, equipos mecánicas, etc.",
+      "descripcion2": "Puentes, vigas soldadas, construcción de edificios, grúas puente, equipos mecánicos, material rodante, pilotes, tanques, etc.",
       "imagen": "images/ASTM_A709_Gr_50PAR.jpeg",
       "fondoimagen": "images/ASTM_A709_Gr_50PAR.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM 709 Gr 50.pdf"
 
     },
     "ASTM_A612": {
@@ -73,7 +73,7 @@
       "descripcion2": "Ideal para la fabricación de tanques de GLP, GNV soterrados, graneleros, estacionarios y cisternas.",
       "imagen": "images/ASTM_A612.jpg",
       "fondoimagen": "images/ASTM_A612.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM A612.pdf"
 
     },
     "ASTM_A516_Gr_70PTP": {
@@ -86,7 +86,7 @@
       "descripcion2": "Calderas, Tuberías a presión o de vapor, Termos industriales, Intercambiadores de calor, Reactores, Vasos transportadores.",
       "imagen": "images/ASTM_A516_Gr_70PTP.jpg",
       "fondoimagen": "images/ASTM_A516_Gr_70PTP.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM 516 Gr 70.pdf"
 
     },
     "ASTM_A285_Gr_C": {
@@ -99,7 +99,7 @@
       "descripcion2": "Fabricación de recipientes estacionarios, acumuladores, calentadores y calderas.",
       "imagen": "images/ASTM_A285_Gr_C.jpg",
       "fondoimagen": "images/ASTM_A285_Gr_C.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM A285 Gr C.pdf"
 
     },
     "ASTM_A242": {
@@ -112,7 +112,7 @@
       "descripcion2": "Construcciones metálicas, puentes, estructuras, fachadas de edificios, puertas metálicas, bordillos, alcorques, fuentes. Industria cementera, silos, tolvas, cribadoras, chimeneas, tuberías, jardineras, lavaderos de carbón, depósitos de agua, petróleo. Hormigoneras, grúas, palas excavadoras, vagones de ferrocarril, chasis de camiones, basculantes, cisternas, semi-remolques.",
       "imagen": "images/ASTM_A242.jpg",
       "fondoimagen": "images/ASTM_A242.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM 242 Gr B.pdf"
 
     },
     "ASTM_A588": {
@@ -125,7 +125,7 @@
       "descripcion2": "Construcciones metálicas, puentes, estructuras, fachadas de edificios, puertas metálicas, bordillos, alcorques, fuentes. Industria cementera, silos, tolvas, cribadoras, chimeneas, tuberías, jardineras, lavaderos de carbón, depósitos de agua, petróleo. Hormigoneras, grúas, palas excavadoras, vagones de ferrocarril, chasis de camiones, basculantes, cisternas, semi-remolques.",
       "imagen": "images/ASTM_A588.jpg",
       "fondoimagen": "images/ASTM_A588.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM 588 Gr B.pdf"
 
     },
     "ASTM_A179": {
@@ -135,15 +135,15 @@
       "caracteristica": "CARACTERÍSTICAS: ",
       "descripcion": "Los tubos ASTM A179 se utilizan en intercambiadores de calor, condensadores, calderas y otros aparatos para transferir calor. Son tubos de acero sin costura, de bajo contenido de carbono, y se laminan en frío.",
       "usos": "USOS: ",
-      "descripcion2": ": En la industria petrolera, para procesos de refinación y enfriamiento, para intercambiadores de calor, para condensadores, en compañías de gas natural, para intercambiadores de calor.",
+      "descripcion2": "En la industria petrolera, para procesos de refinación y enfriamiento, para intercambiadores de calor, para condensadores, en compañías de gas natural, para intercambiadores de calor.",
       "imagen": "images/ASTM_A179.jpg",
       "fondoimagen": "images/ASTM_A179.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_TUBO ASTM A179.pdf"
 
     },
     "ASTM_A_192": {
       "seccion":"TUBOS DE CALDERO",
-      "titulo": "ASTM A 192",
+      "titulo": "ASTM A192",
       "categoria": "TUBOS DE CALDERO",
      "caracteristica": "CARACTERÍSTICAS: ",
       "descripcion": "Tubos de acero, sin costura, debajo contenido de carbono, de sección circular, laminados en caliente fabricados bajo norma ASTM A192.",
@@ -151,7 +151,7 @@
       "descripcion2": "Calderas, intercambiadores de calor, hornos de refinerías, sobrecalentadores, servicios de alta temperatura y aparatos similares para transferencia de calor.",
       "imagen": "images/ASTM_A_192.jpg",
       "fondoimagen": "images/ASTM_A_192.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_TUBO ASTM A192.pdf"
 
     },
     "TUBOS_ACERO_A53": {
@@ -164,7 +164,7 @@
       "descripcion2": "Construcción de estructuras resistentes en la construcción civil, transporte de petróleo, gas, agua, vapor y aire. Perforación de pozos subterráneo, fabricación de turbinas eólicas, construcción de oleoductos y gasoductos.",
       "imagen": "images/TUBOS_ACERO_A53.jpg",
       "fondoimagen": "images/TUBOS_ACERO_A53.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_TUBO SCH 40, 80, 160.pdf"
 
     },
     "TUBOS_REDONDOS": {
@@ -177,7 +177,7 @@
       "descripcion2": "Estructuras metálicas livianas, columnas, vigas, tijerales, carrocería, etc.",
       "imagen": "images/TUBOS_REDONDOS.jpg",
       "fondoimagen": "images/TUBOS_REDONDOS.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_TUBO ASTM A500 Gr A.pdf"
 
     },
     "TUBOS_CUADRADOS": {
@@ -190,7 +190,7 @@
       "descripcion2": "Se utilizan en la construcción de edificios, barandillas y postes de señalización, mantenimiento industrial, implementos agrícolas, equipos de transporte, Rejas, carrocerías, ETC.",
       "imagen": "images/TUBOS_CUADRADOS.jpg",
       "fondoimagen": "images/TUBOS_CUADRADOS.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_ASTM A500 Gr B.pdf"
 
     },
     "SAE_1020": {
@@ -203,7 +203,7 @@
       "descripcion2": "Se usa principalmente para partes de maquinaria que no estén sometidas a grandes esfuerzos mecánicos Ejes, Bujes, Flanges, Remaches, Pernos, Pasadores, Componentes forjados-mecanizados, Bridas, Catalinas, Piñones de cadena.",
       "imagen": "images/SAE_1020.jpg",
       "fondoimagen": "images/SAE_1020.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_BARRA SAE 1020.pdf"
 
     },
     "SAE_1045": {
@@ -216,7 +216,7 @@
       "descripcion2": "Es utilizado para todo tipo de elementos que requieren de dureza y tenacidad como ejes, manivelas, chavetas, engranajes de baja velocidad, pasadores y cigüeñales.",
       "imagen": "images/TSAE_1045.jpg",
       "fondoimagen": "images/TSAE_1045.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_BARRA SAE 1045.pdf"
 
     },
     "VIGAS_Y_CANALES": {
@@ -229,7 +229,7 @@
       "descripcion2": "Las vigas y canales tienen múltiples aplicaciones en diversos sectores. Se utilizan como soporte estructural en edificaciones y puentes, proporcionando estabilidad y resistencia.",
       "imagen": "images/VIGAS_Y_CANALES.jpg",
       "fondoimagen": "images/VIGAS_Y_CANALES.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_VIGAS H e I.pdf"
 
     },
     "INOXIDABLES": {
@@ -243,7 +243,7 @@
         "descripcion2": "El acero inoxidable se utiliza principalmente en la construcción de puentes, vigas soldadas y edificios. También es fundamental en la fabricación de grúas puente, equipos mecánicos, material rodante, pilotes, tanques y estructuras metálicas.",      
       "imagen": "images/INOXIDABLES.jpg",
       "fondoimagen": "images/INOXIDABLES.jpg",
-      "pdf": "pdf/PDFPREDETERMINADO.pdf"
+      "pdf": "pdf/FT_INOXIDABLES.pdf"
 
     }
 
